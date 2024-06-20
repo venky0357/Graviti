@@ -1,0 +1,16 @@
+:root{
+    --heading-1:12px;
+    --heading-2:14px;
+    --heading-3:16px;
+    --heading-4:18px;
+    --heading-5:20px;
+    --black:900;
+    --extra-bold:800;
+    --bold:700;
+    --semi-bold:600;
+    --medium:500;
+    --regular:400;
+    --light:300;
+    --extra-light:200;
+    --thin:100;
+}

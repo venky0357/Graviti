@@ -1,0 +1,146 @@
+.navbar{
+    height:80px;
+    width:100%;
+    padding:6px 50px;
+    background-color: #fff;
+}
+.title{
+    margin-top:30px;
+}
+.title h2{
+ font-family: 'Work Sans';
+ font-weight: 400;
+ font-size:20px;
+ color:#1B31A8;
+ text-align: center;
+ line-height: 24px;
+}
+.content-distance{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.distance{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:20px;
+    background-color: #fff;
+    margin:20px;
+    align-items: center;
+}
+.distance span{
+    color:#1E2A32;
+    font-weight: 700;
+    font-family: "IBM Plex Sans";
+    font-size:20px;
+}
+.distance b{
+    color:#0079FF;
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+.content_calculate{
+    width:100%;
+    margin:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width:40%;
+}
+.route label{
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-size:14px;
+    line-height: 16.8px;
+}
+.route input{
+    height:45px;
+}
+.input-group-text{
+    background-color: #fff;
+    border-right: none;
+}
+.input-group input{
+    border-left:none;
+}
+.origin-icon img{
+    border:2px solid black;
+    border-radius: 50%;
+}
+.calculate button{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:50%;
+    border:none;
+    padding:21px 32px;
+    border-radius: 60px;
+    background-color: #1B31A8;
+    color:#fff;
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    font-size:18px;
+    line-height: 20px;
+}
+
+
+  
+
+ul.suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    position: relative;
+    background: white;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  ul.suggestions li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  ul.suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+
+  ul.suggestions::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ul.suggestions::-webkit-scrollbar-track {
+    background: #f5f1f1; 
+  }
+  
+  ul.suggestions::-webkit-scrollbar-thumb {
+    background-color: #0079FF; 
+    border-radius: 10px; 
+    border: 3px solid #f0f0f0; 
+  }
+  
+  ul.suggestions::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3; 
+  }
+  .maindiv{
+    display: flex;
+    gap:100px;
+  }
+ .maps{
+    width:50%;
+    margin-top: 30px;
+ }
+ .stop_button{
+    border:none;
+    background:none;
+    align-items: center;
+    display: flex;
+    gap:7px;
+    
+ }
